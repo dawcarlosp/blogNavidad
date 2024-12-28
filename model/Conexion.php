@@ -9,7 +9,7 @@ class Conexion
     private $charset;
     public function __construct()
     {
-        $this->server = 'localhost';
+        $this->server = 'db';
         $this->user = 'bbddblog';
         $this->password = '1234';
         $this->bbdd = 'bbddblog';
