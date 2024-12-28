@@ -10,8 +10,8 @@ class Conexion3
     public function __construct()
     {
         $this->server = 'localhost';
-        $this->user = 'root';
-        $this->password = '';
+        $this->user = 'bbddblog';
+        $this->password = '1234';
         $this->bbdd = 'bbddblog';
         $this->port = 3306;
         $this->charset = 'utf8mb4';
