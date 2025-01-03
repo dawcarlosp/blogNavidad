@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -48,7 +49,6 @@
     <header class="m-5 rounded-5 vidrio">
         <ul class="d-flex flex-wrap align-items-center justify-content-center">
             <?php
-            session_start();
             if (isset($_SESSION["usuario"])) {
                 echo '<li><p>¡Bienvenido ' . htmlspecialchars($_SESSION["usuario"]) . '!</p></li>';
                 echo '<li><a class="boton" href="' . BASE_URL . 'index.php/cerrarSesion/">Cerrar sesión</a></li>';
